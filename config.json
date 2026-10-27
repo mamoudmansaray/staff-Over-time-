@@ -1,0 +1,26 @@
+{
+  "title": "Staffing and Overtime Analysis",
+  "headers": [
+    "date",
+    "program",
+    "shift",
+    "regular_hours",
+    "overtime_hours",
+    "hourly_rate",
+    "regular_cost",
+    "overtime_cost",
+    "total_cost"
+  ],
+  "numeric": [
+    "regular_hours",
+    "overtime_hours",
+    "hourly_rate",
+    "regular_cost",
+    "overtime_cost",
+    "total_cost"
+  ],
+  "question": "Which programs account for the most overtime spending?",
+  "label": "program",
+  "metric": "overtime_cost",
+  "limit": "Random fictional overtime does not identify the reasons for staffing shortages."
+}
